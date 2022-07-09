@@ -2,7 +2,7 @@ import sys
 import os
 import py7zr
 import random
-from password_generatror import get_password
+from password_generatror import get_password # (password_generatror is a secret, so it's in .gitignore)
 
 if len(sys.argv) == 2:
     file_name: str = sys.argv[1]
